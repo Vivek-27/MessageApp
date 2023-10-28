@@ -70,11 +70,9 @@ const ChatMessageScreen = () => {
       console.log('error fetching messages', error);
     }
   };
-  const sec = new Date().getSeconds();
   useEffect(() => {
     fetchMessages();
-    console.log(sec);
-  }, []);
+  });
 
   useEffect(() => {
     const fetchRecepientData = async () => {
