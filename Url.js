@@ -1,1 +1,1 @@
-export const URL = 'http://192.168.1.2:8000';
+export const URL = 'https://messageapp-451s.onrender.com';
